@@ -1,0 +1,151 @@
+ 	
+
+ 	 * {
+ 	 	padding: 0;
+ 	 	margin: 0;
+ 	 	box-sizing: border-box;
+ 	 	font-family: 'Inter', sans-serif;
+ 	 }
+
+ 	 a {
+
+ 	 	text-decoration: none;
+
+ 	 }
+
+
+ 	 :root {
+
+ 	 	--prim_colo : #B964E1;
+ 	 	--text_colo : #4E6494;
+ 	 	--text_grey : #909090;
+ 	 	--bg_colo : #DAE3E5;
+
+ 	 }
+
+ 	 body {
+ 	 	background-color: var(--bg_colo);
+ 	 }
+
+
+ 	 /* :: layout :: */ 
+
+ 	 	.root {
+
+ 	 		display: flex;
+ 	 		justify-content: center;
+ 	 	}
+
+ 	 	.root__content {
+
+ 	 		width: 600px;
+ 	 		height: 100vh;
+ 	 		display: flex;
+ 	 		flex-direction: column;
+ 	 		justify-content: center;
+ 	 		
+ 	 	}
+
+ 	 	.root__content__wrapper {
+ 	 		height: 480px;
+ 	 		display: flex;
+ 	 		flex-direction: column;
+ 	 		justify-content: space-between;
+ 	 		align-items: center;
+
+ 	 	}
+
+ 	 	.root__content__intro {
+
+ 	 		height: 140px;
+ 	 		display: flex;
+ 	 		flex-direction: column;
+ 	 		justify-content: space-between;
+ 	 		align-items: center;
+ 	 		max-width: 533px;
+ 	 		text-align: center;
+ 	 	}
+
+ 	 
+
+ 	 /* :: layout--e */
+
+
+ 	 .root__content__dp {
+ 	 	display: flex;
+ 	 	justify-content: center;
+ 	 }
+ 	 .root__content__intro--hellomsg {
+
+ 	 	font-size: 1.5em;
+ 	 	font-weight: 300;
+ 	 	color: var(--text_grey);
+ 	 }
+
+ 	 .__intro--username {
+ 	 	color: var(--prim_colo);
+ 	 }
+
+ 	 .root__content__intro--desc {
+ 	 	color: var(--text_colo);
+ 	 	font-weight: 400;
+ 	 	max-width: 533px;
+ 	 	font-size: 1.80em;
+ 	 	margin-top: 1em;
+
+ 	 }
+
+ 	 .root__content__cta__scroll {
+
+ 	 	display: flex;
+ 	 	align-items: center;
+ 	 	justify-content: center;
+
+
+ 	 }
+
+ 	.root__content--cta--button {
+
+ 		border: none;
+ 		padding: 20px 44px;
+ 		background-color: var(--prim_colo);
+ 		border-radius: 10px;
+ 		color: #fff;
+ 		font-size: 18px;
+ 		font-weight: 700;
+ 		cursor: pointer;
+ 		margin-bottom: 60px;
+ 		box-shadow: 0px 15px 30px rgba(218, 138, 255, 0.7);
+
+
+ 	}
+
+
+ 	.root__content--cta--button:hover {
+
+ 		background-color: #B24BE2;
+ 		transition-duration: 1s;
+ 	}
+
+
+ 	.root__content__cta__scroll--icon {
+
+ 		height: 24px;
+ 		color: var(--text_grey);
+ 		margin-right: 7px;
+ 	}
+
+
+ 	.root__content__cta__scroll {
+
+ 		display: flex;
+ 		align-items: center;
+ 	}
+
+ 
+ 	.root__content__cta__scroll h2 {
+ 		font-size: 0.9em;
+ 		color: var(--text_grey);
+ 		font-weight: 500;
+
+ 	}
